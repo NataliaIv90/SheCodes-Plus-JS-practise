@@ -105,3 +105,31 @@ const forecast = {
 console.log(forecast);
 console.log(forecast.wednesday);
 console.log(forecast.monday["temperature"]);
+
+let forecastNew = [
+  {
+    day: "monday",
+    temp: 20,
+  },
+  {
+    day: "tuesday",
+    temp: 15,
+  },
+  {
+    day: "wednesday",
+    temp: 25,
+  },
+];
+console.log(forecastNew[1]);
+console.log(forecastNew[0].day);
+console.log(forecastNew[0].temp);
+
+console.log(
+  `The temperature for ${forecastNew[0].day} will be ${forecastNew[0].temp}℃`
+);
+
+//in my opinion, it might be great
+forecastNew.forEach(function (weekDay) {
+  console.log(`The temperature for ${weekDay.day} will be ${weekDay.temp}℃`);
+});
+//whooray, it works!!!
