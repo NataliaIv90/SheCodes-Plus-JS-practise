@@ -69,5 +69,6 @@ console.log(cities[2].temperature);
 // #2
 
 cities.forEach(function (city) {
+  console.log(city.name);
   console.log(city.temperature);
 });
