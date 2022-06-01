@@ -9,6 +9,10 @@ console.log(country);
 // Challenge 3
 // Add class special to the li with id special
 
+special.classList.add("special");
+
+// special.classList.remove("country");
+
 // Challenge 4
 // In your code, replace the content of the element with id special
 // by your favorite country (other than Portugal of course)
