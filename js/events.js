@@ -12,6 +12,7 @@ button.addEventListener("click", alertWeather);
 // When the button is clicked, replace button label by ‘18 degrees’
 
 function changeButton() {
+  let button = document.querySelector("button");
   button.innerHTML = "18 degrees";
 }
 
