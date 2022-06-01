@@ -11,6 +11,13 @@ h2 {
   width: 600px;
   border-radius: 30px;
   background-image: linear-gradient(bisque, teal);
+  border: 3px solid white;
+  transition: all 100ms ease-in;
+}
+
+h1:hover,
+h2:hover {
+  border: 3px solid teal;
 }
 
 button {
@@ -32,6 +39,11 @@ button:active {
   right: -5px;
   bottom: -5px;
   box-shadow: 5px 5px 5px white;
+  color: white;
+  background-color: teal;
+}
+
+button:hover {
   color: white;
   background-color: teal;
 }
