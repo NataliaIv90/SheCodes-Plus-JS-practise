@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+  width: 600px;
+  border-radius: 30px;
+  background-image: linear-gradient(bisque, teal);
+}
+
+.special {
+  color: red;
+  font-size: 46px;
+  border: 1px solid teal;
+  border-radius: 10px;
+  width: 15%;
+  padding: 0 20px;
+  background-image: linear-gradient(yellow 30%, lightblue 80%);
+}
